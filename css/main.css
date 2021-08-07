@@ -1,0 +1,106 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #36393e;
+  font-family: "Caveat", cursive;
+  margin: 0 8px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+footer {
+  font-size: 28px;
+  padding: 5px 10px;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  background-color: white;
+  color: #282b30;
+}
+
+.credit {
+  text-align: right;
+  font-family: "Caveat", cursive;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 99999;
+}
+
+#info {
+  font-size: 19px;
+  font-family: "Times New Roman";
+  color: white;
+  background-color: #001;
+  overflow: hidden;
+  font-family: "Patrick Hand", cursive;
+}
+
+#info a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#main {
+  color: white;
+  padding: 5px;
+  background-color: #1e2124;
+}
+
+#title {
+  font-size: 100px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+#image {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  max-width: 85%;
+  height: auto;
+  box-shadow: 0px 0px 100px 15px #000000;
+}
+
+#img-div {
+  background-color: #5f0000;
+  margin: 5px 45px;
+  padding: 70px 0px;
+  font-size: 28px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 25px 2px #000000;
+}
+
+#img-caption {
+  padding: auto;
+  max-width: 80%;
+  margin: auto;
+}
+
+#tribute-info {
+  background-color: #282b30;
+  padding: 50px;
+  padding-right: 70px;
+  width: 60%;
+  position: relative;
+  text-align: justify;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: inset 0px 0px 10px 5px gray;
+}
+
+li {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+#link {
+  text-align: center;
+  font-size: 35px;
+  background: white;
+  border-radius: 5px;
+  color: black;
+}
